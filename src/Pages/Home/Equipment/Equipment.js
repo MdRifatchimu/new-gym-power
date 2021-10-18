@@ -5,6 +5,8 @@ const Equipment = () => {
   return (
     <div class=" my-5 ">
       <h1 className="text-center">Our Unique Equipments</h1>
+      <hr />
+      <br />
       <div class="row justify-content-center">
         <div class="col " align="center">
           <div class="profile-card my-2">

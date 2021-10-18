@@ -1,10 +1,58 @@
 [
   {
-    "id": "614f6bccb24ddf7s8c7185f9",
-    "name": "English",
-    "category": "IELTS or TOFEL 1 Year Course",
-    "image": "https://studyabroad.shiksha.com/mediadata/images/articles/english-word-concept-picture-id10894210001.jpg",
+    "id": "1",
+    "name": "TRAINING LEGGING",
 
-    "price": 10000
+    "image": "https://i.ibb.co/Hg9h0r5/shop-image-2-500x620.jpg",
+    "description": "Better For Your Leg Exercise"
+  },
+  {
+    "id": "2",
+    "name": "CROSSTRAINERS ",
+
+    "image": "https://i.ibb.co/d0xDxJR/shop-image-3-500x620.jpg",
+    "description": "Helps   To     lose your belly fat"
+  },
+  {
+    "id": "3",
+    "name": "WHITE TOP",
+
+    "image": "https://i.ibb.co/syfvHP2/shop-image-4-500x620.jpg",
+    "description": "It heals you to make a shaped cheek"
+  },
+  {
+    "id": "4",
+    "name": "SWEAT",
+
+    "image": "https://i.ibb.co/7GShj5V/shop-image-5-500x620.jpg",
+    "description": "Running in treadmills will make you sweat and get a better shape"
+  },
+  {
+    "id": "5",
+    "name": "HOME GYM",
+
+    "image": "https://i.ibb.co/8xkKdSF/shop-image-6-500x620.jpg",
+    "description": "We have remote training session which you can attend from home and still be fit"
+  },
+  {
+    "id": "6",
+    "name": "Cardio",
+
+    "image": "https://i.ibb.co/tLy2sFM/shop-image-7-500x620.jpg",
+    "description": " 6 month Cardio   Program  can sure you'll be more attractive with those abs"
+  },
+  {
+    "id": "7",
+    "name": "Steam SWEAT",
+
+    "image": "https://i.ibb.co/HXmP0vK/shop-image-8-500x620.jpg",
+    "description": "Steaming is good for muscles,   a steam   once a week will make your core strong"
+  },
+  {
+    "id": "8",
+    "name": "Spinning Studio",
+
+    "image": "https://i.ibb.co/q5c5Sdk/shop-image-1-500x620.jpg",
+    "description": "why go outside when you can do cycling in our modern machines and be fit"
   }
 ]

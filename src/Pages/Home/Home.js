@@ -1,15 +1,17 @@
 import React from "react";
 import {Container} from "react-bootstrap";
-import Banner from "./Banner";
+import Banner from "./Banner/Banner";
 import Equipment from "./Equipment/Equipment";
+import Services from "./Services/Services";
+import Testimonial from "./Testimonial/Testimonial";
 
 const Home = () => {
   return (
     <Container>
       <Banner></Banner>
       <Equipment></Equipment>
-      <h1>This is home page</h1>
-      <p>you are welcome</p>
+      <Services></Services>
+      <Testimonial></Testimonial>
     </Container>
   );
 };
