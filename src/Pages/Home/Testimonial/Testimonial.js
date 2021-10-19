@@ -96,19 +96,13 @@ const Fitness = () => {
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam.
+                    “I LIKE MY TRAINER. I LIKE THE LOOK OF THE STUDIO. I LIKE
+                    THE PEOPLE WHO USE IT. I LIKE THE MIX OF THOSE PEOPLE.” ...
+                    “ITS A VERY CLEAN, LOW KEY GYM. ”
                   </p>
                 </div>
               </div>
@@ -128,17 +122,9 @@ const Fitness = () => {
                     <i className="fa fa-star"></i>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam.
+                    “I LIKE MY TRAINER. I LIKE THE LOOK OF THE STUDIO. I LIKE
+                    THE PEOPLE WHO USE IT. I LIKE THE MIX OF THOSE PEOPLE.” ...
+                    “ITS A VERY CLEAN, LOW KEY GYM. ”
                   </p>
                 </div>
               </div>
@@ -149,7 +135,7 @@ const Fitness = () => {
                 data-parent="#accordionExample"
               >
                 <div className="card-body">
-                  <h4>You all are awesome thanks alot</h4>
+                  <h4>You all are awesome thanks a lot</h4>
                   <div className="ratings">
                     <i className="fa fa-star"></i>
                     <i className="fa fa-star"></i>
@@ -157,17 +143,9 @@ const Fitness = () => {
                     <i className="fa fa-star"></i>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam.
+                    “I LIKE MY TRAINER. I LIKE THE LOOK OF THE STUDIO. I LIKE
+                    THE PEOPLE WHO USE IT. I LIKE THE MIX OF THOSE PEOPLE.” ...
+                    “ITS A VERY CLEAN, LOW KEY GYM. ”
                   </p>
                 </div>
               </div>

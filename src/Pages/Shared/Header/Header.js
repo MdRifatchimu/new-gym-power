@@ -50,7 +50,7 @@ const Header = () => {
               </Nav.Link>
             )}
             <Navbar.Text>
-              Signed in as:{" "}
+              Signed in as:
               <a
                 as={HashLink}
                 to="/home#services"

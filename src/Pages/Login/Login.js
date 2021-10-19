@@ -39,7 +39,7 @@ const Login = () => {
       <button
         type="button"
         onClick={() => processLogin(email, password)}
-        className="btn btn-primary btn-lg w-100 mt-4"
+        className="btn btn-danger btn-lg w-100 mt-4"
       >
         Login
       </button>
@@ -47,11 +47,11 @@ const Login = () => {
       <button
         type="button"
         onClick={signInUsingGoogle}
-        className="btn btn-primary btn-lg w-100 my-4"
+        className="btn btn-danger btn-lg w-100 my-4"
       >
         Google Sign In
       </button>
-      <NavLink to="/register" className="create-account">
+      <NavLink to="/register" className="create-account text-danger">
         Don't have any account ?
       </NavLink>
     </div>

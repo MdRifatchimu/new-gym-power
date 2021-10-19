@@ -22,7 +22,8 @@ const Register = () => {
   return (
     <div>
       <div className="container my-5 w-25">
-        <h1 className="my-5">Register</h1>
+        <h1 className="mt-5 text-danger">Register</h1>
+        <hr />
         <div className="form-floating mb-3">
           <input
             type="text"
@@ -67,19 +68,19 @@ const Register = () => {
         <button
           type="button"
           onClick={() => createNewUser(name, email, password)}
-          className="btn btn-primary btn-lg w-100 mt-4"
+          className="btn btn-danger btn-lg w-100 mt-4"
         >
           Register
         </button>
-        <h4 className="mt-3">OR</h4>
+        <h4 className="mt-3 text-primary">OR</h4>
         <button
           type="button"
           onClick={signInUsingGoogle}
-          className="btn btn-primary btn-lg w-100 my-4"
+          className="btn btn-danger btn-lg w-100 my-4"
         >
           Google Sign in
         </button>
-        <NavLink to="/login" className="create-account">
+        <NavLink to="/login" className="create-account text-danger">
           Already have an account ?
         </NavLink>
       </div>

@@ -1,86 +1,48 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./Footer.css";
-import logo from "../../../images/footerlogo.png";
+import {HashLink} from "react-router-hash-link";
+import {Nav} from "react-bootstrap";
 
 const Footer = () => {
   return (
     <div className="background">
-      <footer className="container py-5">
-        <div className="row">
-          <div className="col-12 col-md">
-            <img width="75" height="75" src={logo} alt="" />
-            <h2 className="text-danger">New Gym Power</h2>
+      <div className="footer-basic">
+        <footer>
+          <h4 className="text-center text-danger">New Gym Power</h4>
+          <div className="social">
+            <a to="/">
+              <i className="fab fa-facebook-f text-danger"></i>
+            </a>
+            <a to="/">
+              <i className="fab fa-snapchat-ghost text-danger"></i>
+            </a>
+            <a to="/">
+              <i className="fab fa-instagram text-danger"></i>
+            </a>
+            <a to="/">
+              <i className="fab fa-linkedin-in text-danger"></i>
+            </a>
           </div>
-          <div className="col-6 col-md">
-            <h5 className="text-white">Features</h5>
-            <ul className="list-unstyled text-small">
-              <li>
-                <p className="text-white">Cool stuff</p>
-              </li>
-              <li>
-                <p className="text-white">Random feature</p>
-              </li>
-              <li>
-                <p className="text-white">Team feature</p>
-              </li>
-              <li>
-                <p className="text-white">Stuff for developers</p>
-              </li>
-            </ul>
-          </div>
-          <div className="col-6 col-md">
-            <h5 className="text-white">Resources</h5>
-            <ul className="list-unstyled text-small">
-              <li>
-                <p className="text-white">Resource</p>
-              </li>
-              <li>
-                <p className="text-white">Resource name</p>
-              </li>
-              <li>
-                <p className="text-white">Another resource</p>
-              </li>
-              <li>
-                <p className="text-white">Final resource</p>
-              </li>
-            </ul>
-          </div>
-          <div className="col-6 col-md">
-            <h5 className="text-white">Resources</h5>
-            <ul className="list-unstyled text-small">
-              <li>
-                <p className="text-white">Business</p>
-              </li>
-              <li>
-                <p className="text-white">Education</p>
-              </li>
-              <li>
-                <p className="text-white">Government</p>
-              </li>
-              <li>
-                <p className="text-white">Gaming</p>
-              </li>
-            </ul>
-          </div>
-          <div className="col-6 col-md">
-            <h5 className="text-white">About</h5>
-            <ul className="list-unstyled text-small">
-              <li>
-                <p className="text-white">Team</p>
-              </li>
-              <li>
-                <p className="text-white">Locations</p>
-              </li>
-              <li>
-                <p className="text-white">Privacy</p>
-              </li>
-              <li>
-                <p className="text-white">Terms</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+          <ul className="list-inline">
+            <li className="list-inline-item text-danger">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="list-inline-item text-danger">
+              <Nav.Link as={HashLink} to="/home#services">
+                Services
+              </Nav.Link>
+            </li>
+            <li className="list-inline-item text-danger">
+              <Link to="/supliments">Supliments</Link>
+            </li>
+            <li className="list-inline-item text-danger">
+              <Link to="/equipments">Equipments</Link>
+            </li>
+          </ul>
+          <p className="copyright text-danger">New Gym Power © 2021</p>
+        </footer>
+      </div>
     </div>
   );
 };

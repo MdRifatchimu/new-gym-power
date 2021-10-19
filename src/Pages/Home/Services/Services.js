@@ -13,7 +13,8 @@ const Services = () => {
     <div id="services" className="home-service-background">
       <div className="container py-5 ">
         <h1 className="text-center p-3 service-title">
-          Check Out Our Services and book one, So That You Can Be A Part Of Us.
+          Check Out Our <span className="text-danger">Services</span> and book
+          one, So That You Can Be A Part Of Us.
         </h1>
         <p className="text-center pb-5 fs-4 fw-normal">
           Our Top Trending and Effective Services
