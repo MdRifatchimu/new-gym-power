@@ -7,13 +7,13 @@
 
 <h2> Name for the Website of This Repository Profile is New Gym Power </h2>
 <h3> <a href = 'https://new-gym-power.web.app/'> Live link of the website</a> </h3>
-<h2>Basically it's a website of educational platform which teaches everyone language of other countries.</h2>
+<h2>Basically it's a website of Gym platform which Shows Their Portfolio and Services.</h2>
 <h2>Some Steps Of Creating This Website.</h2>
 <ul>
-<li>I made This Website Because of exploring and testing my knowledge of react router which i learn from programming hero web development course. </li>
-<li>I used Bootstrap Framework alongside with Font Awesome to make this Website beautiful.</li>
+<li>I made This Website Because of exploring and testing my knowledge of react router, Private Route, React Bootstrap, Hash Link, Dynamic Route, Firebase Authentication and Context Api, Auth Provider which i learn from programming hero web development course. </li>
+<li>I used Bootstrap , React Bootstrap alongside with Font Awesome to make this Website beautiful.</li>
 <li>Firstly I created a database so that i can show data's from that database in my website </li>
-<li>Then I Made The Header and footer Section Of The Website</li>
+<li>Then I Made The Header and footer Section Of The Website in the shared folder</li>
 <li>then i create routes to see other components in app.js</li>
 <li>I used Browser Router as Router</li>
 <li> I also used switch </li>
@@ -21,11 +21,16 @@
 <li>I used destructuring So that i can get bonus marks</li>
 <li>I used a unique key for each services in the database</li>
 <li>I used some images to show services </li>
-<li>In the home page i showed 4 services alongside with a gallery carousel and country flags and a hero banner at the top of the homepage</li>
-<li>I made a path and component named mentors for bonus</li>
-<li>I created About Us Component</li>
+
+<li>i used firebase authentication</li>
+<li>I used google sign in and email password registration method </li>
 <li>I used Link from react-router-dom to declare paths</li>
+<li>I also used PrivateRoute so hide some parts of the  website from the guest users.</li>
 <li>I also edited this readme file for bonus marks</li>
+<li>I created the 404 page if there is a route which the user wants to go and is not available</li>
+<li>I showed the logged in user's name in the header after successful login or registration</li>
+<li>I made details part for the services so that when a user clicks  book now button the can see the service in details</li>
+<li>For the extra two section required i created  a unique equipments section and a testimonial section</li>
 
 </ul>
 <h2> Desktop View Of The Website HomePage</h2>
@@ -39,24 +44,6 @@
 <h2> Mobile View Of The Website HomePage</h2>
 
 ![It was created in purpose of Learning  Responsiveness of a website with out any css frame-work.](https://i.ibb.co/519cp6X/3.png)
-
-<h2> Services View Of The Website</h2>
-
-![It was created in purpose of Learning  Responsiveness of a website with out any css frame-work.](https://i.ibb.co/k34sR7M/service.png)
-
-<h2> About us View Of The Website</h2>
-
-![It was created in purpose of Learning  Responsiveness of a website with out any css frame-work.](https://i.ibb.co/2sM66Tr/about-us.png)
-
-<h2> Mentors View Of The Website</h2>
-
-![It was created in purpose of Learning  Responsiveness of a website with out any css frame-work.](https://i.ibb.co/5TsL641/mentors.png)
-
-<h2> 404 not found View Of The Website</h2>
-
-![It was created in purpose of Learning  Responsiveness of a website with out any css frame-work.](https://i.ibb.co/xz4X2JC/not-found.png)
-
-<h2> I Made This Project In Order To Learn and explore React Router</h2>
 
 <h2> About Me</h2>
 

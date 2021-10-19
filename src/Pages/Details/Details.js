@@ -19,7 +19,7 @@ const Details = () => {
   console.log(sItems);
 
   return (
-    <div className="container">
+    <div className="container mt-3">
       <div className="card mb-3" style={{maxWidth: "70%", margin: "auto"}}>
         <div className="row g-0">
           <div className="col-md-4">
