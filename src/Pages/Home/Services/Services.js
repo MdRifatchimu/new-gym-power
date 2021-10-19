@@ -20,11 +20,11 @@ const Services = () => {
         </p>
         <hr />
         <br />
-        <div class="wrapper">
-          <div class="container-fostrap">
-            <div class="content">
-              <div class="container">
-                <div class="row">
+        <div className="wrapper">
+          <div className="container-fostrap">
+            <div className="content">
+              <div className="container">
+                <div className="row">
                   {/* using map to push data to children  */}
                   {services.map(service => (
                     <Service key={service.id} service={service}></Service>

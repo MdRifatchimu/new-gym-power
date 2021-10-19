@@ -2,32 +2,34 @@ import React from "react";
 
 const Fitness = () => {
   return (
-    <div class="container">
+    <div className="container">
       <div
-        class="accordion d-flex justify-content-center align-items-center height"
+        className="accordion d-flex justify-content-center align-items-center height"
         id="accordionExample"
       >
-        <div class="row">
-          <div class="col-md-6">
-            <div class="p-3">
-              <ul class="testimonial-list">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="p-3">
+              <ul className="testimonial-list">
                 <li>
                   <div
-                    class="card p-3"
+                    className="card p-3"
                     data-toggle="collapse"
                     data-target="#collapseOne"
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    <div class="d-flex flex-row align-items-center">
+                    <div className="d-flex flex-row align-items-center">
                       <img
                         src="https://i.imgur.com/G1pXs7D.jpg"
                         width="50"
-                        class="rounded-circle"
+                        className="rounded-circle"
                         alt=""
                       />
-                      <div class="d-flex flex-column ml-2">
-                        <span class="font-weight-normal">Milton Austin</span>
+                      <div className="d-flex flex-column ml-2">
+                        <span className="font-weight-normal">
+                          Milton Austin
+                        </span>
                         <span>Sales Manager, Stack</span>
                       </div>
                     </div>
@@ -35,21 +37,21 @@ const Fitness = () => {
                 </li>
                 <li>
                   <div
-                    class="card p-3"
+                    className="card p-3"
                     data-toggle="collapse"
                     data-target="#collapseTwo"
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    <div class="d-flex flex-row align-items-center">
+                    <div className="d-flex flex-row align-items-center">
                       <img
                         src="https://i.imgur.com/udGH5tO.jpg"
                         width="50"
-                        class="rounded-circle"
+                        className="rounded-circle"
                         alt=""
                       />
-                      <div class="d-flex flex-column ml-2">
-                        <span class="font-weight-normal">John Reeves</span>
+                      <div className="d-flex flex-column ml-2">
+                        <span className="font-weight-normal">John Reeves</span>
                         <span>Head of Sales, Asana</span>
                       </div>
                     </div>
@@ -57,21 +59,21 @@ const Fitness = () => {
                 </li>
                 <li>
                   <div
-                    class="card p-3"
+                    className="card p-3"
                     data-toggle="collapse"
                     data-target="#collapseThree"
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    <div class="d-flex flex-row align-items-center">
+                    <div className="d-flex flex-row align-items-center">
                       <img
                         src="https://i.imgur.com/Uz4FjGZ.jpg"
                         width="50"
-                        class="rounded-circle"
+                        className="rounded-circle"
                         alt=""
                       />
-                      <div class="d-flex flex-column ml-2">
-                        <span class="font-weight-normal">Luke Harper</span>
+                      <div className="d-flex flex-column ml-2">
+                        <span className="font-weight-normal">Luke Harper</span>
                         <span>Sales Team Lead,Sketch</span>
                       </div>
                     </div>
@@ -80,20 +82,20 @@ const Fitness = () => {
               </ul>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="p-3 testimonials-margin">
+          <div className="col-md-6">
+            <div className="p-3 testimonials-margin">
               <div
                 id="collapseOne"
-                class="collapse show"
+                className="collapse show"
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   <h4>It was a great experience</h4>
-                  <div class="ratings">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                  <div className="ratings">
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -112,18 +114,18 @@ const Fitness = () => {
               </div>
               <div
                 id="collapseTwo"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   <h4>Thanks for this great service</h4>
-                  <div class="ratings">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                  <div className="ratings">
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -142,17 +144,17 @@ const Fitness = () => {
               </div>
               <div
                 id="collapseThree"
-                class="collapse"
+                className="collapse"
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div className="card-body">
                   <h4>You all are awesome thanks alot</h4>
-                  <div class="ratings">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                  <div className="ratings">
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
+                    <i className="fa fa-star"></i>
                   </div>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

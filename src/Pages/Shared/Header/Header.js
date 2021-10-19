@@ -2,12 +2,15 @@ import React from "react";
 import {Link} from "react-router-dom";
 import "./Header.css";
 import logo from "../../../images/logo.png";
-import {Container, Nav, Navbar} from "react-bootstrap";
+import {Button, Container, Nav, Navbar} from "react-bootstrap";
 import {HashLink} from "react-router-hash-link";
+import useAuth from "../../../Hooks/useAuth";
 
 const Header = () => {
+  const {user, logOut} = useAuth();
+
   return (
-    <div className="Menu-container">
+    <div>
       <Navbar
         bg="light"
         variant="light"
@@ -16,9 +19,11 @@ const Header = () => {
         expand="lg"
       >
         <Container>
-          <Navbar.Brand href="#home" className="logo-title fs-4">
-            <img alt="" src={logo} width="75" height="75" />
-            New Gym Power
+          <Navbar.Brand className="logo-title fs-4">
+            <Link className="navbar-brand text-danger" to="/home">
+              <img alt="" src={logo} width="75" height="75" />
+              New Gym Power
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
@@ -28,16 +33,33 @@ const Header = () => {
             <Nav.Link as={HashLink} to="/home#services" className="items">
               Services
             </Nav.Link>
-            <Link to="/services" className="items">
-              <li>Services</li>
+            <Link to="/supliments" className="items">
+              Supliments
             </Link>
-            {/* <Nav.Link as={HashLink} to="/home#experts">Experts</Nav.Link>
-                        {user?.email ?
-                            <Button onClick={logOut} variant="light">Logout</Button> :
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>}
-                        <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName}</a>
-                        </Navbar.Text> */}
+            <Link to="/equipments" className="items">
+              Equipments
+            </Link>
+
+            {user?.email ? (
+              <Button onClick={logOut} variant="light">
+                Logout
+              </Button>
+            ) : (
+              <Nav.Link as={Link} to="/login">
+                Login
+              </Nav.Link>
+            )}
+            <Navbar.Text>
+              Signed in as:{" "}
+              <a
+                as={HashLink}
+                to="/home#services"
+                className="items"
+                href="#login"
+              >
+                {user?.displayName}
+              </a>
+            </Navbar.Text>
           </Navbar.Collapse>
         </Container>
       </Navbar>
