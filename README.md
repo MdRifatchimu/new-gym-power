@@ -34,7 +34,7 @@
 
 <h2> Tablet View Of The Website HomePage</h2>
 
-![It was created in purpose of Learning  Responsiveness of a website with out any css frame-work.](https://i.ibb.co/CKYjcts/2.png)
+![It was created in purpose of Learning  Responsiveness of a website with out any css frame-work.](https://i.ibb.co/V2ZmwPw/2.png)
 
 <h2> Mobile View Of The Website HomePage</h2>
 
