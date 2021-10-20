@@ -3,6 +3,9 @@ import React from "react";
 const Fitness = () => {
   return (
     <div className="container">
+      <h2 className="text-center text-danger pb-3">
+        <u> Hear What Our Clients Have to Say About Us </u>
+      </h2>
       <div
         className="accordion d-flex justify-content-center align-items-center height"
         id="accordionExample"

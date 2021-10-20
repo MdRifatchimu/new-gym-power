@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 
 const Login = () => {
-  const {signInUsingGoogle, processLogin} = useAuth();
+  const {signInUsingGoogle, processLogin, handleGoogleLogin} = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -46,7 +46,7 @@ const Login = () => {
       <h4 className="mt-3">OR</h4>
       <button
         type="button"
-        onClick={signInUsingGoogle}
+        onClick={handleGoogleLogin}
         className="btn btn-danger btn-lg w-100 my-4"
       >
         Google Sign In
