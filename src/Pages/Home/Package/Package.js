@@ -11,9 +11,12 @@ const Package = () => {
         <div class="container">
           <h2>Choose Your Package</h2>
           <p class="title-p">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            When it comes to traditional herbal products still in use today, you
+            won’t find many more popular or useful than aloe vera. While
+            historically used as a juice or gel, NOW has taken aloe and brought
+            it into the modern age with our popular Aloe 10,000 line of
+            convenient aloe supplements, as well as our Aloe Vera Concentrate
+            for more traditional uses.
           </p>
           <ScrollAnimation
             animateIn="bounce"
