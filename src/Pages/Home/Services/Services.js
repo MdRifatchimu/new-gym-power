@@ -11,7 +11,7 @@ const Services = () => {
   }, []);
   return (
     <div id="services" className="home-service-background">
-      <div className="container py-5 ">
+      {/* <div className="container py-5 ">
         <h1 className="text-center p-3 service-title">
           Check Out Our <span className="text-danger">Services</span> and book
           one, So That You Can Be A Part Of Us.
@@ -26,12 +26,26 @@ const Services = () => {
             <div className="content">
               <div className="container">
                 <div className="row">
-                  {/* using map to push data to children  */}
+                   
                   {services.map(service => (
                     <Service key={service.id} service={service}></Service>
                   ))}
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      <div id="services">
+        <div className="dark">
+          <div className="container py-4">
+            <h1 className="h1 text-center text-white" id="pageHeaderTitle">
+              Our Event Services
+            </h1>
+            <div>
+              {services.map(service => (
+                <Service key={service.id} service={service}></Service>
+              ))}
             </div>
           </div>
         </div>
