@@ -1,18 +1,24 @@
 import React from "react";
 import {Container} from "react-bootstrap";
+import About from "./About/About";
 import Banner from "./Banner/Banner";
+import Classes from "./Classes/Classes";
 import Equipment from "./Equipment/Equipment";
+import Gallery from "./Gallery/Gallery";
 import Services from "./Services/Services";
-import Testimonial from "./Testimonial/Testimonial";
+import Training from "./Training/Training";
 
 const Home = () => {
   return (
-    <Container>
+    <div>
       <Banner></Banner>
+      <About />
       <Equipment></Equipment>
       <Services></Services>
-      <Testimonial></Testimonial>
-    </Container>
+      <Training></Training>
+      <Classes></Classes>
+      <Gallery></Gallery>
+    </div>
   );
 };
 

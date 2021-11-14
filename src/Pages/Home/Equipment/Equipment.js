@@ -3,7 +3,7 @@ import "./Equipment.css";
 
 const Equipment = () => {
   return (
-    <div className=" my-5 ">
+    <div className="container my-5 ">
       <h1 className="text-center">Our Unique Equipments</h1>
       <hr />
       <br />
